@@ -1,0 +1,242 @@
+/*Utilisation Police Speciale*/
+
+@font-face
+{
+  font-family: 'alata';
+  src: url('alata.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face
+{
+  font-family: 'blackjack';
+  src: url('blackjack.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container
+{
+  font-family: 'alata', arial, sans-serif;
+  display: flex;
+  width: auto;
+}
+.bloc-g
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFC000;
+  width: 25%;
+  min-width: 300px;
+  margin-bottom: 0%;
+  justify-content: space-between;
+}
+
+.bloc-g h2
+{
+  display: flex;
+  line-height: 100%;
+  background-color: #595959;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: #FFC000;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#photo
+{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  margin-top: 10%;
+}
+
+img
+{
+  width: 180px;
+  border-radius: 100%;
+  border: 4px solid #E6AF00;
+}
+
+#info
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#propos
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+  padding-bottom: 70%;
+}
+
+#loisirs
+{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10%;
+}
+
+#icones
+{
+  display: flex;
+  justify-content: space-around;
+  font-size: 200%;
+  color: #595959;
+  width: 100%;
+}
+
+#icones i
+{
+  border: 2px solid #595959;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.resume
+{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 10%;
+  text-align: justify;
+}
+
+.bloc-d
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 75%;
+}
+
+.bloc-d div
+{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.bloc-d h2
+{
+display: flex;
+margin-top: 30px;
+border-bottom: 3px solid #FFC000;
+font-size: 1.8em;
+}
+
+#formation, #experience, #reco
+{
+  margin-bottom: 40px;
+}
+
+.bloc-d h2 .fas
+{
+  padding-right: 25px;
+}
+
+h4
+{
+
+font-weight: normal;
+}
+
+/*Mise en Page Entete*/
+
+#entete
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+h1 span
+{
+  color: #FFC000;
+}
+
+h3 span
+{
+  text-decoration: underline solid #FFC000;
+}
+
+#entete h1
+{
+  font-size: 3.5em;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#entete h3
+{
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+ul
+{
+  padding-left: 0%;
+}
+
+li
+{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li p 
+{
+  display: flex;
+  align-items: baseline;
+  width: 200%;
+}
+
+li i
+{
+  padding-right: 10%;
+}
+
+.description p
+{
+  width: 108%;
+}
+
+section
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+article
+{
+  padding-left: 0%;
+  width: 200%;
+}
+
+h4
+{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 0%;
+}
+
+#entete, .bloc-d h2
+{
+  font-family: 'blackjack', serif;
+}
