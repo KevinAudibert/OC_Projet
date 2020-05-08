@@ -21,7 +21,7 @@
   display: flex;
   width: auto;
 }
-.bloc-g
+aside
 {
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@
   justify-content: space-between;
 }
 
-.bloc-g h2
+aside h2
 {
   display: flex;
   line-height: 100%;
@@ -113,7 +113,7 @@ img
   text-align: justify;
 }
 
-.bloc-d
+article
 {
   display: flex;
   flex-direction: column;
@@ -121,7 +121,7 @@ img
   width: 75%;
 }
 
-.bloc-d div
+article div
 {
   display: flex;
   flex-direction: column;
@@ -129,7 +129,7 @@ img
   padding-right: 5%;
 }
 
-.bloc-d h2
+article h2
 {
 display: flex;
 margin-top: 30px;
@@ -142,7 +142,7 @@ font-size: 1.8em;
   margin-bottom: 40px;
 }
 
-.bloc-d h2 .fas
+article h2 .fas
 {
   padding-right: 25px;
 }
