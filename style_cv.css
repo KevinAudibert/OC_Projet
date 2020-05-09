@@ -66,7 +66,6 @@ aside h2
 
 img
 {
-  width: 180px;
   border-radius: 100%;
   border: 4px solid #E6AF00;
 }
@@ -132,7 +131,6 @@ main
   flex-direction: column;
   background-color: white;
   width: 75%;
-  min-width: 700px;
 }
 
 main div
@@ -217,17 +215,12 @@ li p
 {
   display: flex;
   align-items: baseline;
-  width: 200%;
+  width: 100%;
 }
 
 li i
 {
   padding-right: 10%;
-}
-
-.description p
-{
-  width: 108%;
 }
 
 #footer
@@ -253,4 +246,43 @@ h4
 #entete, main h2
 {
   font-family: 'blackjack', serif;
+}
+
+@media screen and (max-width: 480px)
+{
+
+  aside
+  {
+    width: 100%;
+  }
+
+  main
+  {
+    width: 100%;
+  }
+
+  main li
+  {
+    flex-direction: column;
+  }
+
+  .description p
+  {
+    text-align: justify;
+  }
+
+  #propos
+  {
+    padding-bottom: 0%;
+    height: 20%;
+  }
+
+  #info
+  {
+    margin-bottom: 0%;
+  }
+  img
+  {
+    width: 250px;
+  }
 }
