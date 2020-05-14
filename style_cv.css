@@ -96,7 +96,6 @@ img
   font-size: 200%;
   color: #595959;
   width: 100%;
-  font-size: 200%;
 }
 
 #icones .fas
@@ -238,7 +237,7 @@ h4
   aside
   {
     width: 100%;
-    margin-top: 250px;
+    margin-top: 60%;
   }
 
   main
