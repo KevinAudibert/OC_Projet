@@ -413,7 +413,6 @@ h4
   }
   #footer
   {
-    flex-direction: column;
     text-align: center;
     line-height: 1;
   }
