@@ -127,8 +127,6 @@ main
 
 main div
 {
-  display: flex;
-  flex-direction: column;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -279,7 +277,6 @@ h4
   #propos
   {
     padding-bottom: 10%;
-    height: 100%;
   }
 
   #entete h1
