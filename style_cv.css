@@ -63,6 +63,7 @@ aside h2
   align-items: center;
   padding-top: 10%;
   margin-top: 10%;
+  padding-bottom: 10%;
 }
 
 img
@@ -82,6 +83,7 @@ img
 {
   display: flex;
   flex-direction: column;
+  flex: 2;
   width: 100%;
   padding-bottom: 70%;
 }
@@ -235,7 +237,7 @@ h4
   font-family: 'blackjack', serif;
 }
 
-@media screen and (max-width : 480px)
+@media screen and (min-width : 375px) and (max-width: 1023px)
 
 {
   aside
@@ -324,6 +326,8 @@ h4
   #photo
   {
     margin-top: 0%;
+    padding-top: 2%;
+    padding-bottom: 0%;
   }
   #footer
   {
@@ -343,109 +347,10 @@ h4
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1020px)
+@media screen and (min-width: 730px) and (max-width: 1023px)
 {
-  aside
-  {
-    width: 100%;
-  }
-
-  main
-  {
-    width: 100%;
-  }
-
-  main h2
-  {
-    font-size: 1.6em;
-  }
-
-  #entete
-  {
-    display: none;
-  }
-
-  #titre
-  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 150px;
-    background-color: white;
-    font-family: 'blackjack', serif;
-    font-size: 1.5em;
-    line-height: 0;
-  }
-
-  main li
-  {
-    flex-direction: column;
-  }
-
-  .description
-  {
-    text-align: center;
-  }
-  .description p
-  {
-    text-align: justify;
-  }
-
-  #propos
-  {
-    padding-bottom: 10%;
-  }
-
-  #entete h1
-  {
-    margin-top: 5%;
-  }
-
-  #propos .resume
-  {
-  padding-left: 15%;
-  padding-right: 15%;
-  text-align: justify;
-  line-height: 2;
-  }
-
-  #info .resume
-  {
-    text-align: center;
-  }
-  #info
-  {
-    margin-bottom: 0%;
-  }
-
-  #formation
-  {
-    padding-top: 5%;
-  }
-  img
-  {
-    width: 200px;
-  }
-
-  #photo
-  {
-    margin-top: 0%;
-  }
   #footer
   {
     flex-direction: row;
-    text-align: center;
-    line-height: 1;
-  }
-
-  #footer div
-  {
-    padding-bottom: 5%;
-  }
-
-  .container
-  {
-    flex-wrap: wrap;
   }
 }
