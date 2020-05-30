@@ -1,36 +1,32 @@
 /*Utilisation Police Speciale*/
 
-@font-face
-{
+@font-face{
   font-family: 'alata';
   src: url('alata.ttf');
   font-weight: normal;
   font-style: normal;
 }
-@font-face
-{
+
+@font-face{
   font-family: 'blackjack';
   src: url('blackjack.otf');
   font-weight: normal;
   font-style: normal;
 }
 
-body
-{
+body{
   margin: 0;
   padding: 0;
   font-family: 'alata', arial, sans-serif;
 }
 
-.container
-{
+.container{
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
 }
 
-aside
-{
+aside{
   display: flex;
   flex-direction: column;
   background-color: #FFC000;
@@ -40,8 +36,7 @@ aside
   justify-content: space-between;
 }
 
-aside h2
-{
+aside h2{
   background-color: #595959;
   text-align: center;
   font-size: 1.5em;
@@ -50,13 +45,11 @@ aside h2
   padding-bottom: 3%;
 }
 
-#titre
-{
+#titre{
   display: none;
 }
 
-#photo
-{
+#photo{
   display: flex;
   width: 100%;
   justify-content: center;
@@ -66,21 +59,18 @@ aside h2
   padding-bottom: 10%;
 }
 
-img
-{
+img{
   border-radius: 100%;
   border: 4px solid #E6AF00;
 }
 
-#info
-{
+#info{
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-#propos
-{
+#propos{
   display: flex;
   flex-direction: column;
   flex: 2;
@@ -88,16 +78,14 @@ img
   padding-bottom: 70%;
 }
 
-#loisirs
-{
+#loisirs{
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 5%;
 }
 
-#icones
-{
+#icones{
   display: flex;
   justify-content: space-around;
   font-size: 200%;
@@ -105,8 +93,7 @@ img
   width: 100%;
 }
 
-#icones .fas
-{
+#icones .fas{
   display: flex;
   justify-content: center;
   height: 35px;
@@ -116,152 +103,127 @@ img
   padding: 10px;
 }
 
-.resume
-{
+.resume{
   padding-left: 15%;
   padding-right: 15%;
   text-align: justify;
 }
 
-main
-{
+main{
   display: flex;
   flex-direction: column;
   background-color: white;
   width: 75%;
 }
 
-main div
-{
+main div{
   padding-left: 5%;
   padding-right: 5%;
 }
 
-main h2
-{
+main h2{
 display: flex;
 margin-top: 30px;
 border-bottom: 3px solid #FFC000;
 font-size: 1.8em;
 }
 
-main h2 .fas
-{
+main h2 .fas{
   padding-right: 25px;
 }
 
-h4
-{
-
+h4{
 font-weight: normal;
 }
 
 /*Mise en Page Entete*/
 
-#entete
-{
+#entete{
   display: flex;
   flex-direction: column;
   margin-top: 5%;
   margin-bottom: 10%;
 }
 
-h1 span
-{
+h1 span{
   color: #FFC000;
 }
 
-h3 span
-{
+h3 span{
   text-decoration: underline solid #FFC000;
 }
 
-#entete h1
-{
+#entete h1{
   font-size: 3.5em;
   margin-bottom: 0;
 }
 
-#entete h3
-{
+#entete h3{
   font-size: 1.5em;
   margin-top: 0;
 }
 
-ul
-{
+ul{
   padding-left: 0%;
 }
 
-li
-{
+li{
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
-li p 
-{
+li p {
   display: flex;
   align-items: baseline;
   min-width: 30%;
 }
 
-li i
-{
+li i{
   padding-right: 10%;
 }
 
-#footer
-{
+#footer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-#footer div
-{
+#footer div{
   padding-left: 0%;
   width: 100%;
 }
 
-h4
-{
+h4{
   margin-top: 0%;
   margin-bottom: 0%;
   padding-top: 0%;
 }
 
-#entete, main h2
-{
+#entete, main h2{
   font-family: 'blackjack', serif;
 }
 
 @media screen and (max-width: 1023px)
 
 {
-  aside
-  {
+  aside{
     width: 100%;
   }
 
-  main
-  {
+  main{
     width: 100%;
   }
 
-  main h2
-  {
+  main h2{
     font-size: 1.6em;
   }
 
-  #entete
-  {
+  #entete{
     display: none;
   }
 
-  #titre
-  {
+  #titre{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,84 +235,69 @@ h4
     line-height: 0;
   }
 
-  main li
-  {
+  main li{
     flex-direction: column;
   }
 
-  .description
-  {
+  .description{
     text-align: center;
   }
-  .description p
-  {
+  .description p{
     text-align: justify;
   }
 
-  #propos
-  {
+  #propos{
     padding-bottom: 10%;
   }
 
-  #entete h1
-  {
+  #entete h1{
     margin-top: 5%;
   }
 
-  #propos .resume
-  {
+  #propos .resume{
   padding-left: 15%;
   padding-right: 15%;
   text-align: justify;
   line-height: 2;
   }
 
-  #info .resume
-  {
+  #info .resume{
     text-align: center;
   }
-  #info
-  {
+  #info{
     margin-bottom: 0%;
   }
 
-  #formation
-  {
+  #formation{
     padding-top: 5%;
   }
-  img
-  {
+  img{
     width: 200px;
   }
 
-  #photo
-  {
+  #photo{
     margin-top: 0%;
     padding-top: 2%;
     padding-bottom: 0%;
   }
-  #footer
-  {
+  #footer{
     flex-direction: column;
     text-align: center;
     line-height: 1;
   }
 
-  #footer div
-  {
+  #footer div{
     padding-bottom: 5%;
   }
 
-  .container
-  {
+  .container{
     flex-wrap: wrap;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px)
 {
-  #footer
-  {
+  #footer{
     flex-direction: row;
   }
 }
